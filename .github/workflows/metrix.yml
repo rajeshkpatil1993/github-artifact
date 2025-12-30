@@ -2,7 +2,7 @@ name: Metrix Demo
 on: push
 jobs:
   build:
-    Strategy:
+    strategy:
       matrix:
         node-version: [12,14,16]
         operating-system: [ubuntu-latest, windows-latest]
